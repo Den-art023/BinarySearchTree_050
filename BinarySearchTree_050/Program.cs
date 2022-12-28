@@ -21,5 +21,15 @@ namespace BinarySearchTree_050
             rightchild = r;
         }
     }
-    
+    /*Node class consists of three things, the information, 
+     * references to the right child, and refereces to the left child*/
+    class Program
+    {
+        public Node ROOT;
+        public Program()
+        {
+            ROOT = null; /*Initializing ROOT to null*/
+        }
+        
+    }
 }
